@@ -1,0 +1,82 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {researcher for security game} % Job title
+    {Undergraduate research, computer network and security lab} % Organization
+    { } % Location
+    {2016 winter} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {submitted a paper to IEEE internet magzine,\\
+        <Vehicle Traffic Driven Camera Placement for Better Metropolis Security Surveillance>, contact me if interested\\
+        proposed algorithm, write code, do writing of experiment part}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {one of 20 members} % Job title
+    {Baidu AI special class} % Organization
+    { } % Location
+    {now} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Baidu and Xi'an Jiaotong Unversity joint class towards AI and big data}
+      \end{cvitems} 
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {researcher} % Job title
+    {undergraduate research, computer vision and AI lab} % Organization
+    { } % Location
+    {2015 winter} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {write code for shuttlecock detection in badminton video}
+        \item {write code for multi faces tracking}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {programmer} % Job title
+    {ROBOCON competation, robot team} % Organization
+    { } % Location
+    {freshman year} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Build STM32 embeded system for robots}
+        \item {write code for SDcard driver, ADC/DAC, encoder, motor}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {lead programmer} % Job title
+    {high school robot team} % Organization
+    { } % Location
+    {3 years} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Win world championship in Robocup Junior 2014, Brazil}
+        \item {competator in Robocup Junior Brazil 2014, Nederland 2013, Mexico 2012}
+      \end{cvitems}
+      %\begin{cvsubentries}
+      %  \cvsubentry{}{KNOX(Solution for Enterprise Mobile Security) Penetration Testing}{Sep. 2013}{}
+      %  \cvsubentry{}{Smart TV Penetration Testing}{Mar. 2011 - Oct. 2011}{}
+      %\end{cvsubentries}
+    }
+
+%---------------------------------------------------------
+\end{cventries}

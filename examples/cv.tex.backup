@@ -1,0 +1,57 @@
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Yihui}{He}
+\position{Computer Science{\enskip\cdotp\enskip}2nd year undergrad}
+\address{Xi'an Jiaotong University, China}
+
+\mobile{(+86) 18702937918} 
+\email{yihuihe@foxmail.com}
+\homepage{zhihui.com/people/rex686568}
+\github{github.com/yihui-he}
+\linkedin{posquit0}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\quote{``Must be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/extracurricular.tex}
+\input{cv/honors.tex}
+\input{cv/presentation.tex}
+\input{cv/writing.tex}
+\input{cv/committees.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}

@@ -1,0 +1,40 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {second year undergraduate in Computer Science} % Degree
+    {Xi'an Jiaotong University} % Institution
+    {Xi'an, China} % Location
+    {2014 - PRESENT} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {rank 20/180}
+        \item {ralated courses: Data Structure, C/C\#, pSTAT}
+      \end{cvitems}
+    }
+    
+%---------------------------------------------------------
+  \cventry
+    {Exchange student in graduate school} % Degree
+    {University of California, Santa Barbara} % Institution
+    {CA, US} % Location
+    {2016 Spring} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {GPA 4.0/4.0}
+        \item {ralated courses: advanced computer vision, deep learning, advanced machine learning}
+        \item {rank 1 twice in CIFAR10/100 image recognition projects}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
