@@ -115,12 +115,12 @@ order=-1
 
 [item:cv.tex]
 archive=true
-column=25
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=45
+line=18
 mode=LaTeX
-open=true
+open=false
 order=0
 
 [item:cv/committees.tex]
@@ -150,7 +150,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=13
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:cv/education.tex.backup]
@@ -165,23 +165,23 @@ order=-1
 
 [item:cv/experience.tex]
 archive=true
-column=0
+column=5
 encoding=UTF-8
 highlight=LaTeX
-line=24
+line=60
 mode=LaTeX
-open=true
-order=1
+open=false
+order=3
 
 [item:cv/honors.tex]
 archive=true
-column=8
+column=73
 encoding=UTF-8
 highlight=LaTeX
-line=32
+line=20
 mode=LaTeX
-open=true
-order=4
+open=false
+order=2
 
 [item:cv/presentation.tex]
 archive=true
@@ -195,13 +195,13 @@ order=-1
 
 [item:cv/projects.tex]
 archive=true
-column=0
+column=34
 encoding=UTF-8
 highlight=LaTeX
-line=34
+line=40
 mode=LaTeX
-open=true
-order=3
+open=false
+order=1
 
 [item:cv/skills.tex]
 archive=true
@@ -320,10 +320,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:cv.tex]
-CursorColumn=25
-CursorLine=45
+CursorColumn=0
+CursorLine=18
 JumpList=
-ViMarks=.,45,25,[,45,25,],45,25
+ViMarks=.,23,10,[,23,10,],23,10
 
 [view-settings,view=0,item:cv/committees.tex]
 CursorColumn=0
@@ -338,16 +338,16 @@ JumpList=
 ViMarks=.,13,63,[,13,52,],13,63
 
 [view-settings,view=0,item:cv/experience.tex]
-CursorColumn=0
-CursorLine=24
+CursorColumn=5
+CursorLine=60
 JumpList=
-ViMarks=.,26,0,[,26,0,],26,1
+ViMarks=.,51,0,[,51,0,],51,0
 
 [view-settings,view=0,item:cv/honors.tex]
-CursorColumn=8
-CursorLine=32
+CursorColumn=73
+CursorLine=20
 JumpList=
-ViMarks=.,32,7,[,32,5,],32,7
+ViMarks=.,20,72,[,20,72,],20,72
 
 [view-settings,view=0,item:cv/presentation.tex]
 CursorColumn=0
@@ -356,10 +356,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:cv/projects.tex]
-CursorColumn=0
-CursorLine=34
+CursorColumn=34
+CursorLine=40
 JumpList=
-ViMarks=.,31,32,[,31,15,],31,32
+ViMarks=.,40,33,[,40,32,],40,33
 
 [view-settings,view=0,item:cv/skills.tex]
 CursorColumn=10

@@ -11,77 +11,68 @@
 
 %---------------------------------------------------------
   \cventry
-    {I have strong interest in computer vision, my hands-on projects as follow:} % Affiliation/role
+    {I'm enthusiastic about computer vision, my hands-on projects are as follow:} % Affiliation/role
     {Computer Vision} % Organization/group
     { } % Location
     { } % Date(s)
     {
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Faster region convolutional neural network, from scratch}
-        \item {\href{https://github.com/yihui-he/Residual-neural-network}{residual neural network with tensorflow}}        
-        \item {understanding depth: neural network approach}
+        \item {\textbf{
+        Faster region convolutional neural network, from scratch}\\
+        I forked RCNN repo, and reimplement RPN layer, SVM fine tuning layer}
+        \item {\href{https://github.com/yihui-he/Residual-neural-network}
+        {\textbf{
+        residual neural network with tensorflow on CIFAR100}}\\ 
+        I reimplement 6/13/20 layers RNN in tensorflow from scratch, and test it's result on CIFAR10/100}
+        \item {\textbf{
+        understanding depth: neural network approach, with Kinect and ImageNet}\\
+        I pretrain a convolutional neural field on large scale depth dataset, and do transfer learning on ImageNet.}
         \item {\href{https://github.com/yihui-he/Single-Layer-neural-network-with-PCAwhitening-Kmeans}
-        {analysis of 1 layer NN in unsupervised learning}}
-        \item {shuttlecock detection and tracking}
-        \item {multi faces tracking}
-        \item {\href{https://github.com/yihui-he/panorama}{panorama creator, from scratch}}
+        {\textbf{
+        analysis of 1 layer NN in unsupervised learning on CIFAR10}}\\ 
+        Preprocess data using PCAwhitening and Kmeans, train MLP on CIFAR10, reach 78\% accuracy. Then I compared differences with original paper}
+        \item {\textbf{
+        shuttlecock detection and tracking}\\ 
+        With guassian mixture model, I extract shuttlecock proposals. Then I use Partical filter to refine proposals.
+        From multi view cameras, I employed structure from motion to predict its 3D location.
+        Combined with Physics facts, landing location prediction accuracy is around 5 cm. 
+        (This system works on embeded linux with openCV)}
+        \item {\textbf{
+        multi faces tracking}}
+        \item {\href{https://github.com/yihui-he/panorama}{\textbf{
+        panorama creator, from scratch}}\\
+        First, to reorder shuffled images, I match SIFT features pairs between each couple of input images. Naive bayes is employed to determine order 
+        from multi proposals. Then cylindrical coordinate and RANSAC are used to estimate transformation. Finally, merge image using $\alpha$ blending.}
         \item {\href{https://github.com/yihui-he/lip-tracking-with-snake-active-contour-and-particle-filter}
-        {tracking with active contour and particle filter}}
-        \item {\href{https://github.com/yihui-he/Edge-detection-with-zero-crossing}{edge detection from scratch}}
+        {\textbf{
+        tracking with active contour and particle filter}}}
+        \item {\href{https://github.com/yihui-he/Edge-detection-with-zero-crossing}{\textbf{
+        edge detection from scratch}}}
+        \item {\textbf{
+        Haris corner detector from scratch}}
+        \item {\textbf{
+        graph segmentation from scratch}}
+        \item {\textbf{
+        eigen faces from scratch}}
       \end{cvitems}
     }
 
-%---------------------------------------------------------
-  \cventry
-    {Member} % Affiliation/role
-    {WiseGuys (Hacking \& Security research group)} % Organization/group
-    {S.Korea} % Location
-    {Jun. 2012 - PRESENT} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Gained expertise in hardware hacking areas from penetration testing on several devices including wireless router, smartphone, CCTV and set-top box.}
-        \item {Trained wannabe hacker about hacking technique from basic to advanced and ethics for white hackers by hosting annual Hacking Camp.}
-      \end{cvitems}
-    }
 
 %---------------------------------------------------------
   \cventry
-    {Core Member \& President at 2013} % Affiliation/role
-    {PoApper (Developers' Network of POSTECH)} % Organization/group
-    {Pohang, S.Korea} % Location
-    {Jun. 2010 - PRESENT} % Date(s)
+    {I'm also interested in AI, machine learning, computer network, embeded system} % Affiliation/role
+    {other projects} % Organization/group
+    { } % Location
+    { } % Date(s)
     {
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Reformed the society focusing on software engineering and building network on and off campus.}
-        \item {Proposed various marketing and network activities to raise awareness.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Member} % Affiliation/role
-    {PLUS (Laboratory for UNIX Security in POSTECH)} % Organization/group
-    {Pohang, S.Korea} % Location
-    {Sep. 2010 - Oct. 2011} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Gained expertise in hacking \& security areas, especially about internal of operating system based on UNIX and several exploit techniques.}
-        \item {Participated on several hacking competition and won a good award.}
-        \item {Conducted periodic security checks on overall IT system as a member of POSTECH CERT.}
-        \item {Conducted penetration testing commissioned by national agency and corporation.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Member} % Affiliation/role
-    {MSSA (Management Strategy Club of POSTECH)} % Organization/group
-    {Pohang, S.Korea} % Location
-    {Sep. 2013 - PRESENT} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Gained knowledge about several business field like Management, Strategy, Financial and marketing from group study.}
-        \item {Gained expertise in business strategy areas and inisght for various industry from weekly industry analysis session.}
+        \item {medical fraud detection with LSTM}
+        \item {\href{https://github.com/yihui-he/AI-CS_188}{pacman with reinforcement learning}}
+        \item {probing  mal urls caches of all DNS servers in China\href{https://github.com/yihui-he/DNS_query_Cpp}{}}
+	\item {\href{https://github.com/yihui-he/Decision-tree}{Decision tree from scratch}}
+        \item {\href{https://github.com/yihui-he/Alibaba-supplier-info-Scrapper}{suppliers information scrapper}, (sold to a small consulting company)}
+        \item {Stackleberg security game on vehicle traffic}
+        \item {infared short distance telephone with ADC/DAC}
       \end{cvitems}
     }
 

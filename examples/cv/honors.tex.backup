@@ -18,18 +18,17 @@
 %---------------------------------------------------------
   \cvhonor
     {semi-final, 200/7000} % Award
-    {Microsoft beauty of programming. (a algorithm competition like ACM.) } % Event
+    {Microsoft beauty of programming} % Event
     { } % Location
     {2015} % Date(s)
   \cvhonor
     {30,000+ visits} % Award
-    {\href{http://blog.csdn.net/qq_21970857}{CSDN Blogger},  I wrote technical blogs for Algorithms, Android, embeded systems, etc. 
-    Stop update for a long time.} % Event
+    {\href{http://blog.csdn.net/qq_21970857}{CSDN Blogger}} % Event
     { } % Location
     {2015} % Date(s)    
   \cvhonor
     {7,000+ upvotes} % Award
-    {\href{https://www.zhihu.com/people/rex686568}{zhihu writer},  I answered questions from internet, programming, math to English learning.} % Event
+    {\href{https://www.zhihu.com/people/rex686568}{zhihu writer}} % Event
     { } % Location
     {now} % Date(s)   
   \cvhonor

@@ -17,14 +17,34 @@
     { } % Date(s)
     {
       \begin{cvitems} % Description(s) of experience/contributions/knowledge
-        \item {Faster region convolutional neural network, from scratch}
-        \item {\href{https://github.com/yihui-he/Residual-neural-network}{residual neural network with tensorflow on CIFAR100}}
-        \item {understanding depth: neural network approach, with Kinect and ImageNet}
+        \item {Faster region convolutional neural network\\
+        \color{lightgray}{
+        I forked RCNN repo, and reimplement RPN layer, SVM fine tuning layer.}
+        }  
+        \item {\href{https://github.com/yihui-he/Residual-neural-network}
+        {residual neural network with tensorflow on CIFAR100}\\ 
+        \color{lightgray}{
+        I reimplement 6/13/20 layers RNN in tensorflow from scratch, and test it's result on CIFAR10/100.
+        }
+        }
+        \item {understanding depth: neural network approach, with Kinect and ImageNet\\
+        \color{lightgray}{
+        I pretrain a convolutional neural field on large scale depth dataset, and do transfer learning on ImageNet.}}
         \item {\href{https://github.com/yihui-he/Single-Layer-neural-network-with-PCAwhitening-Kmeans}
-        {analysis of 1 layer NN in unsupervised learning on CIFAR10}}
-        \item {shuttlecock detection and tracking}
+        {analysis of 1 layer NN in unsupervised learning on CIFAR10}\\
+        \color{lightgray}{
+        Preprocess data using PCAwhitening and Kmeans, train MLP on CIFAR10, reach 78\% accuracy. Then I compared differences with original paper.}}
+        \item {shuttlecock detection and tracking\\ 
+        \color{lightgray}{
+        With guassian mixture model, I extract shuttlecock proposals. Then I use Partical filter to refine proposals.
+        From multi view cameras, I employed structure from motion to predict its 3D location.
+        Combined with Physics laws, landing location prediction accuracy is around 5 cm. 
+        (This system works on embeded linux with openCV)}}
         \item {multi faces tracking}
-        \item {\href{https://github.com/yihui-he/panorama}{panorama creator, from scratch}}
+        \item {\href{https://github.com/yihui-he/panorama}{panorama creator, from scratch}\\
+        \color{lightgray}{
+        First, to reorder shuffled images, I match SIFT features pairs between each couple of input images. Naive bayes is employed to determine order 
+        from multi proposals. Then cylindrical coordinate and RANSAC are used to estimate transformation. Finally, merge image using $\alpha$ blending.}}
         \item {\href{https://github.com/yihui-he/lip-tracking-with-snake-active-contour-and-particle-filter}
         {tracking with active contour and particle filter}}
         \item {\href{https://github.com/yihui-he/Edge-detection-with-zero-crossing}{edge detection from scratch}}
